@@ -20,7 +20,9 @@ function App() {
         </navbar>
         <div className="hero-content">
           <div className="hero-text">
-            <h1>Hi, I am Colette Parker 👋</h1>
+            <h1>
+              Hi, I am <span>Colette Parker</span> 👋
+            </h1>
             <h2>
               I am a <span>junior full stack developer</span> based in Berlin
             </h2>
@@ -32,7 +34,14 @@ function App() {
           ></img>
         </div>
       </header>
-      <section className="container" id="projects"></section>
+      <section className="container" id="projects">
+        <div className="project-heading">
+          <span>My latest projects</span>
+        </div>
+        <div className="p-heading-description">
+          <span>Below you can find some of my latest projects</span>
+        </div>
+      </section>
       <section className="container" id="call-to-action"></section>
       <footer className="container" id="footer"></footer>
     </>
