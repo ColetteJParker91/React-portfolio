@@ -1,0 +1,73 @@
+body {
+  font-family: "PT Sans", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+}
+
+#footer {
+  flex-direction: row;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 0px;
+  gap: 638px;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.logo a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67.29px;
+}
+.portrait {
+  width: 468px;
+  height: 624px;
+  border-radius: 5px;
+}
+h2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+}
+.hero-content h2 span {
+  color: #49b6da;
+}
+
+.hero-text span {
+}
