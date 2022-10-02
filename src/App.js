@@ -15,7 +15,14 @@ function App() {
             <span>Home</span>
             <span>About</span>
             <span>Resume</span>
-            <span>Contact</span>
+            <button
+              onClick={() =>
+                (window.location = "mailto:colette.joy.parker@gmail.com")
+              }
+              className="mailto"
+            >
+              Contact
+            </button>
           </div>
         </navbar>
         <div className="hero-content">
@@ -41,9 +48,29 @@ function App() {
         <div className="p-heading-description">
           <span>Below you can find some of my latest projects</span>
         </div>
+        <div className="project-list">
+          <div className="project-one"></div>
+          <div className="project-two"></div>
+          <div className="project-three"></div>
+        </div>
       </section>
-      <section className="container" id="call-to-action"></section>
-      <footer className="container" id="footer"></footer>
+      <section className="container" id="call-to-action">
+        <div className="call-to-action-text">
+          <div className="get-in-touch">Get in touch✉️</div>
+          <div className="work-together">
+            Want to work together or have questions?
+          </div>
+        </div>
+        <button className="email-button">
+          <div className="email-button-text">Send me an email🚀</div>
+        </button>
+      </section>
+      <footer className="container" id="footer">
+        <div className="copyright">
+          © 2022 Colette Parker. All rights reserved.
+        </div>
+        <div className="twitter"></div>
+      </footer>
     </>
   );
 }
