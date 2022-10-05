@@ -10,15 +10,14 @@ function Navbar() {
         </a>
       </div>
       <div className="navigation">
-        <link to="/Homepage.js">Home</link>
-        <link to="/About.js">About</link>
-        <link to="/Resume.js">Resume</link>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/resume">Resume</Link>
         <button
           onClick={() =>
             (window.location = "mailto:colette.joy.parker@gmail.com")
           }
-          className="mailto"
-        >
+          className="mailto">
           Contact
         </button>
       </div>
