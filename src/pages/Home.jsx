@@ -1,30 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import React from "react";
 
-function App() {
+function Home() {
   return (
     <>
       <header className="container" id="hero">
-        <navbar className="navbar">
-          <div className="logo">
-            <a href="/">
-              <span>CP</span>
-            </a>
-          </div>
-          <div className="navigation">
-            <span>Home</span>
-            <span>About</span>
-            <span>Resume</span>
-            <button
-              onClick={() =>
-                (window.location = "mailto:colette.joy.parker@gmail.com")
-              }
-              className="mailto"
-            >
-              Contact
-            </button>
-          </div>
-        </navbar>
         <div className="hero-content">
           <div className="hero-text">
             <h1>
@@ -69,10 +49,15 @@ function App() {
         <div className="copyright">
           © 2022 Colette Parker. All rights reserved.
         </div>
-        <div className="twitter"></div>
+        <div className="icons">
+          <img src="linkedin.svg" alt="linkedin" className="linkedin"></img>
+          <img src="github.svg" alt="github" className="github"></img>
+          <img src="twitter.svg" alt="twitter" className="twitter"></img>
+          <img src="medium.svg" alt="medium" className="medium"></img>
+        </div>
       </footer>
     </>
   );
 }
 
-export default App;
+export default Home;

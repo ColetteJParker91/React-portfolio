@@ -249,3 +249,31 @@ h2 {
 
   color: #e5f2f8;
 }
+.copyright:hover {
+  cursor: pointer;
+}
+.linkedin {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  color: #e5f2f8;
+}
+.github {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background: #e5f2f8;
+}
+.twitter {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background: #e5f2f8;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  gap: 20px;
+  background-color: #e5f2f8;
+}
